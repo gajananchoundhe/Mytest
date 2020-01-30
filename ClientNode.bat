@@ -13,4 +13,4 @@ Echo.
 Echo Connecting to grid hub sever, please wait...
 Echo.
 
-java -jar %dir%\selenium-server-standalone-3.141.59.jar -role node -hub http://%Host%:4444/grid/register -port 5555
+java -jar %dir%\selenium-server-standalone-3.141.59.jar -role node -browser browserName=chrome -hub http://%Host%:4444/grid/register -port 5555
